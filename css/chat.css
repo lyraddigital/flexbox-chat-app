@@ -14,3 +14,19 @@ html {
     background: linear-gradient(to right, #57c1eb 0%,#246fa8 100%);
     font-size: 10px;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chat-container {
+    flex-grow: 1;
+    min-width: 800px;
+    max-width: 1000px;
+    max-height: 800px;
+    height: 95vh;
+    background: #FFF;
+    border-radius: 10px;
+}
