@@ -22,6 +22,7 @@ body {
 }
 
 #chat-container {
+    display: flex;
     flex-grow: 1;
     min-width: 800px;
     max-width: 1000px;
@@ -29,4 +30,15 @@ body {
     height: 95vh;
     background: #FFF;
     border-radius: 10px;
+}
+
+#side-bar {
+    background: #0048AA;
+    border-radius: 10px 0 0 10px;
+    flex-basis: 275px;
+}
+
+#chat-window {
+    border-radius: 0 10px 10px 0;
+    flex-grow: 1;
 }
